@@ -1,0 +1,144 @@
+@media only screen and (max-width: 2560px) and (min-width: 1700px) {
+  div.navbar {
+    width: 1100px;
+  }
+  section.start {
+    width: 35vw;
+  }
+  div.subsin {
+    width: 40vw;
+  }
+  .infoot{
+    width: 40vw;
+  }
+  .foot2{
+    width: 40vw;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  section.start {
+    width: 90vw;
+  }
+  .Grid {
+    width: 90vw;
+  }
+  div.box {
+    width: 17rem;
+  }
+  div.buttons {
+    flex-direction: column;
+  }
+  button.bit32 {
+    margin: 0;
+  }
+  button.bit64 {
+    margin: 0;
+  }
+  div.subsin {
+    width: 90vw;
+  }
+  .infoot{
+    width: 90vw;
+  }
+  .foot2{
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .logo img {
+    max-width: 140px;
+  }
+  section.start {
+    margin-top: 20px;
+  }
+  div.items {
+    display: none;
+  }
+  div.Items2{
+    display:block;
+  }
+  .Grid {
+    grid-template-columns: 95vw;
+  }
+  div.box {
+    width: 90vw;
+    /* max-width: 95vw; */
+    margin: auto;
+  }
+  div.buttons {
+    flex-direction: row;
+  }
+  div.join {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    gap: 1rem;
+  }
+  .form{
+    width: 50%;
+    margin: auto;
+  }
+  .infoot{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .foot2{
+    align-items: center;
+  }
+  .item1{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .item2{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .start h4 {
+    font-size: 35px;
+    gap: 10px;
+  }
+  .start h4 b {
+    font-size: 35px;
+  }
+  .start p {
+    font-size: 20px;
+  }
+  .in small {
+    font-size: 12px;
+  }
+  div.button {
+    margin: auto;
+  }
+  div.buttons {
+    flex-direction: column;
+  }
+  .form{
+    width: 90%;
+  }
+  .newsletter h5{
+    font-size: 20px;
+  }
+  .form h5{
+    font-size: 20px;
+  }
+  .ques h4{
+    font-size: 20px;
+  }
+  .infoot{
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto auto auto auto;
+    padding: 1.8rem 0;
+  }
+  .form1 h5{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 390px){
+    .form{
+        width: 98%;
+      }
+}
